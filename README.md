@@ -19,7 +19,9 @@ sudo su
 
 ## 2. Download and run script
 
+```
 wget -q -O lightnodes.sh https://raw.githubusercontent.com/labtec0000/Celestia-Menu/main/Autolight.sh && chmod +x lightnodes.sh && sudo /bin/bash lightnodes.sh
+```
 
 
 ## Select Option 1 Install
