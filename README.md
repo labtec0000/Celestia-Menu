@@ -15,7 +15,9 @@ Bandwidth: 56 Kbps for Download/56 Kbps for Upload
 
 ## 1. Please use user root for install
 
+```
 sudo su
+```
 
 ## 2. Download and run script
 
@@ -57,23 +59,30 @@ for quick menu
 
 Check Service Status
 
+```
 systemctl status celestia-lightd
+```
 
 Check Logs
 
+```
 journalctl -u celestia-lightd.service -f
-
+```
 
 Restart Node
 
+```
 systemctl restart celestia-lightd
-
+```
 
 Stop Node
 
+```
 systemctl stop celestia-lightd
-
+```
 
 List Wallet
 
+```
 ./cel-key list --node.type light --keyring-backend test --p2p.network blockspacerace
+```
